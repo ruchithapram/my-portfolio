@@ -111,12 +111,13 @@ function Sidebar({ theme, setTheme, isOpen, setIsOpen }) {
             </button>
 
             <a
-              href="/resume.pdf"
-              download
-              className="mt-6 block text-center bg-indigo-600 py-3 rounded-lg text-white shadow"
-            >
-              Download Resume
-            </a>
+  href="/Ruchitha_HP_Resume.pdf"
+  download="Ruchitha_HP_Resume.pdf"
+  className="mt-6 block text-center bg-indigo-600 py-3 rounded-lg text-white shadow"
+>
+  Download Resume
+</a>
+
           </div>
         </motion.aside>
       )}
